@@ -1,0 +1,4 @@
+HMI şifreleri
+
+User : Admin
+Pass : 6439

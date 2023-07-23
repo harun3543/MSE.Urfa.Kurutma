@@ -1,0 +1,7 @@
+# gitignore template for TwinCAT3
+# website: https://www.beckhoff.com/twincat3/
+#
+# Recommended: VisualStudio.gitignore
+
+
+Kurutma_UrMK10_V17_V18_Rampasiz.backup/
