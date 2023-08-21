@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OnlineDevices>
+  <OnlineDevice id="0" name="drv8" ipAddress="192.168.0.20" macAddress="00-1C-06-86-6A-95">
+    <Mlfb>6SL3220-2YE30-0UF0</Mlfb>
+    <Type>0x002A0523</Type>
+    <TypeName>SINAMICS G120X PN</TypeName>
+    <OnlineModule moduleNumber="0">
+      <OnlinePorts>
+        <OnlinePort name="Port 1" portNumber="1">
+          <PortNumberInModule>1</PortNumberInModule>
+          <Description>Siemens, SINAMICS, Ethernet Port, X150 P1R1</Description>
+          <CableLength>47</CableLength>
+          <OnlineRemotePartners>
+            <OnlineRemotePartner>
+              <Device name="drv7" ipAddress="192.168.0.19" macAddress="00-1C-06-86-68-72" onlineDeviceId="1" matchCriteria="Name" />
+              <Module number="0" />
+              <Port name="Port 2" numberInModule="2" />
+            </OnlineRemotePartner>
+          </OnlineRemotePartners>
+        </OnlinePort>
+        <OnlinePort name="Port 2" portNumber="2">
+          <PortNumberInModule>2</PortNumberInModule>
+          <Description>Siemens, SINAMICS, Ethernet Port, X150 P2R2</Description>
+          <CableLength>0</CableLength>
+          <OnlineRemotePartners>
+            <OnlineRemotePartner>
+              <Device name="desktop-k1v15c0" ipAddress="0.0.0.0" macAddress="00-00-00-00-00-00" />
+              <Module number="0" />
+              <Port name="Port 1" numberInModule="1" />
+            </OnlineRemotePartner>
+          </OnlineRemotePartners>
+        </OnlinePort>
+      </OnlinePorts>
+    </OnlineModule>
+  </OnlineDevice>
+  <OnlineDevice id="1" name="drv7" ipAddress="192.168.0.19" macAddress="00-1C-06-86-68-72">
+    <Mlfb>6SL3220-2YE30-0UF0</Mlfb>
+    <Type>0x002A0523</Type>
+    <TypeName>SINAMICS G120X PN</TypeName>
+    <OnlineModule moduleNumber="0">
+      <OnlinePorts>
+        <OnlinePort name="Port 1" portNumber="1">
+          <PortNumberInModule>1</PortNumberInModule>
+          <Description>Siemens, SINAMICS, Ethernet Port, X150 P1R1</Description>
+          <CableLength>12</CableLength>
+          <OnlineRemotePartners>
+            <OnlineRemotePartner>
+              <Device name="drv6" ipAddress="192.168.0.18" macAddress="00-1C-06-74-37-79" onlineDeviceId="5" matchCriteria="Name" />
+              <Module number="0" />
+              <Port name="Port 2" numberInModule="2" />
+            </OnlineRemotePartner>
+          </OnlineRemotePartners>
+        </OnlinePort>
+        <OnlinePort name="Port 2" portNumber="2">
+          <PortNumberInModule>2</PortNumberInModule>
+          <Description>Siemens, SINAMICS, Ethernet Port, X150 P2R2</Description>
+          <CableLength>51</CableLength>
+          <OnlineRemotePartners>
+            <OnlineRemotePartner>
+              <Device name="drv8" ipAddress="192.168.0.20" macAddress="00-1C-06-86-6A-95" onlineDeviceId="0" matchCriteria="Name" />
+              <Module number="0" />
+              <Port name="Port 1" numberInModule="1" />
+            </OnlineRemotePartner>
+          </OnlineRemotePartners>
+        </OnlinePort>
+      </OnlinePorts>
+    </OnlineModule>
+  </OnlineDevice>
+  <OnlineDevice id="2" name="drv5" ipAddress="192.168.0.17" macAddress="00-1C-06-70-FA-CF">
+    <Mlfb>6SL3220-2YE30-0UF0</Mlfb>
+    <Type>0x002A0523</Type>
+    <TypeName>SINAMICS G120X PN</TypeName>
+    <OnlineModule moduleNumber="0">
+      <OnlinePorts>
+        <OnlinePort name="Port 1" portNumber="1">
+          <PortNumberInModule>1</PortNumberInModule>
+          <Description>Siemens, SINAMICS, Ethernet Port, X150 P1R1</Description>
+          <CableLength>46</CableLength>
+          <OnlineRemotePartners>
+            <OnlineRemotePartner>
+              <Device name="firinhmi" ipAddress="192.168.0.11" macAddress="EC-1C-5D-22-D7-D4" onlineDeviceId="3" matchCriteria="Name" />
+              <Module number="0" />
+              <Port name="Port 2" numberInModule="2" />
+            </OnlineRemotePartner>
+          </OnlineRemotePartners>
+        </OnlinePort>
+        <OnlinePort name="Port 2" portNumber="2">
+          <PortNumberInModule>2</PortNumberInModule>
+          <Description>Siemens, SINAMICS, Ethernet Port, X150 P2R2</Description>
+          <CableLength>12</CableLength>
+          <OnlineRemotePartners>
+            <OnlineRemotePartner>
+              <Device name="drv6" ipAddress="192.168.0.18" macAddress="00-1C-06-74-37-79" onlineDeviceId="5" matchCriteria="Name" />
+              <Module number="0" />
+              <Port name="Port 1" numberInModule="1" />
+            </OnlineRemotePartner>
+          </OnlineRemotePartners>
+        </OnlinePort>
+      </OnlinePorts>
+    </OnlineModule>
+  </OnlineDevice>
+  <OnlineDevice id="3" name="firinhmi" ipAddress="192.168.0.11" macAddress="EC-1C-5D-22-D7-D4">
+    <Mlfb>6AV2 124-0JC01-0AX0</Mlfb>
+    <Type>0x002A040D</Type>
+    <TypeName>TP900 Comfort</TypeName>
+    <OnlineModule moduleNumber="0">
+      <OnlinePorts>
+        <OnlinePort name="Port 1" portNumber="1">
+          <PortNumberInModule>1</PortNumberInModule>
+          <Description>SOC1 Port 1</Description>
+          <CableLength>0</CableLength>
+          <OnlineRemotePartners>
+            <OnlineRemotePartner>
+              <Device name="firinplc" ipAddress="192.168.0.10" macAddress="EC-1C-5D-5D-35-5C" onlineDeviceId="4" matchCriteria="Name" />
+              <Module number="0" />
+              <Port name="Port 1" numberInModule="1" />
+            </OnlineRemotePartner>
+          </OnlineRemotePartners>
+        </OnlinePort>
+        <OnlinePort name="Port 2" portNumber="2">
+          <PortNumberInModule>2</PortNumberInModule>
+          <Description>SOC1 Port 2</Description>
+          <CableLength>45</CableLength>
+          <OnlineRemotePartners>
+            <OnlineRemotePartner>
+              <Device name="drv5" ipAddress="192.168.0.17" macAddress="00-1C-06-70-FA-CF" onlineDeviceId="2" matchCriteria="Name" />
+              <Module number="0" />
+              <Port name="Port 1" numberInModule="1" />
+            </OnlineRemotePartner>
+          </OnlineRemotePartners>
+        </OnlinePort>
+      </OnlinePorts>
+    </OnlineModule>
+  </OnlineDevice>
+  <OnlineDevice id="4" name="firinplc" ipAddress="192.168.0.10" macAddress="EC-1C-5D-5D-35-5C">
+    <Mlfb>6ES7 214-1AG40-0XB0</Mlfb>
+    <Type>0x002A010D</Type>
+    <TypeName>S7-1200</TypeName>
+    <OnlineModule moduleNumber="0">
+      <OnlinePorts>
+        <OnlinePort name="Port 1" portNumber="1">
+          <PortNumberInModule>1</PortNumberInModule>
+          <Description>Siemens, SIMATIC S7, Ethernet Port, X1 P1</Description>
+          <CableLength>0</CableLength>
+          <OnlineRemotePartners>
+            <OnlineRemotePartner>
+              <Device name="firinhmi" ipAddress="192.168.0.11" macAddress="EC-1C-5D-22-D7-D4" onlineDeviceId="3" matchCriteria="Name" />
+              <Module number="0" />
+              <Port name="Port 1" numberInModule="1" />
+            </OnlineRemotePartner>
+          </OnlineRemotePartners>
+        </OnlinePort>
+      </OnlinePorts>
+    </OnlineModule>
+  </OnlineDevice>
+  <OnlineDevice id="5" name="drv6" ipAddress="192.168.0.18" macAddress="00-1C-06-74-37-79">
+    <Mlfb>6SL3220-2YE30-0UF0</Mlfb>
+    <Type>0x002A0523</Type>
+    <TypeName>SINAMICS G120X PN</TypeName>
+    <OnlineModule moduleNumber="0">
+      <OnlinePorts>
+        <OnlinePort name="Port 1" portNumber="1">
+          <PortNumberInModule>1</PortNumberInModule>
+          <Description>Siemens, SINAMICS, Ethernet Port, X150 P1R1</Description>
+          <CableLength>17</CableLength>
+          <OnlineRemotePartners>
+            <OnlineRemotePartner>
+              <Device name="drv5" ipAddress="192.168.0.17" macAddress="00-1C-06-70-FA-CF" onlineDeviceId="2" matchCriteria="Name" />
+              <Module number="0" />
+              <Port name="Port 2" numberInModule="2" />
+            </OnlineRemotePartner>
+          </OnlineRemotePartners>
+        </OnlinePort>
+        <OnlinePort name="Port 2" portNumber="2">
+          <PortNumberInModule>2</PortNumberInModule>
+          <Description>Siemens, SINAMICS, Ethernet Port, X150 P2R2</Description>
+          <CableLength>13</CableLength>
+          <OnlineRemotePartners>
+            <OnlineRemotePartner>
+              <Device name="drv7" ipAddress="192.168.0.19" macAddress="00-1C-06-86-68-72" onlineDeviceId="1" matchCriteria="Name" />
+              <Module number="0" />
+              <Port name="Port 1" numberInModule="1" />
+            </OnlineRemotePartner>
+          </OnlineRemotePartners>
+        </OnlinePort>
+      </OnlinePorts>
+    </OnlineModule>
+  </OnlineDevice>
+</OnlineDevices>

@@ -1,0 +1,29 @@
+
+Drives dönüş yönü 
+
+P.Man - P.Seq -> Duvara doğru üfleme
+N.Man - N.Seq -> Fırın içine hava çekme
+
+------------------------------------------
+------------------------------------------
+Baca ve ara kat yönü
+
+P.Man - P.Seq -> Baca fanlar içine hava çeker
+N.Man - N.Seq -> Baca dış ortama hava üfler
+
+P.Man - P.Seq -> Ara kat fanlar bacalara doğru havayı çeker
+N.Man - N.Seq -> Ara kat fanlar fırın içine yani duvarlara doğru hava üfler
+
+
+--------------------------------------------
+--------------------------------------------
+
+User administrator
+
+User : Admin
+Pass : 6439
+
+--------------------------------------------------
+--------------------------------------------------
+Analog valflere 27648 degeri verilirse valfler kapanır.
+Analog valflere 0 degeri verilirse valfler açılır.
